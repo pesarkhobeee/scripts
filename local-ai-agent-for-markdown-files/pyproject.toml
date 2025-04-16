@@ -1,0 +1,13 @@
+[project]
+name = "local-ai-agent-for-markdown-files"
+version = "0.2.0"
+description = "Local AI Agent for Markdown Files, utulizing LlamaIndex, FAISS and Ollama"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "faiss-cpu>=1.10.0",
+    "llama-index>=0.12.30",
+    "llama-index-embeddings-huggingface>=0.5.3",
+    "llama-index-llms-ollama>=0.5.4",
+    "llama-index-vector-stores-faiss>=0.3.0",
+]
